@@ -13,7 +13,7 @@ function countdown(min, elem) {
   }
 
   function counter() {
-    // Top interval if minutes and second = 0
+    // Stop interval if minutes and second = 0
     if (minutes <= 0 && seconds <= 0) {
       updateElem();
       clearInterval(interval);
@@ -30,7 +30,7 @@ function countdown(min, elem) {
           minutes--;
           updateElem();
         } else {
-          // minus seconds per second
+          // minus 1 per second
           seconds--;
           updateElem();
         }

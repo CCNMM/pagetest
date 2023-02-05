@@ -336,7 +336,7 @@ body * {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: transparent;
-  text-shadow: 0px 1px 1px #fff, 0 0 0 #000, 0px 1px 0px #fff;
+  text-shadow: 0px 1px 1px #fff, 0 0 0 rgba(0, 0, 0, 0.5), 0px 1px 0px #fff;
 }
 
 .lightbox .content > p {
